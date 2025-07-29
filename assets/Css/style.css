@@ -54,49 +54,55 @@ a.button:hover {
     color: #fff; 
 }
 
-/*h1 {
-    
-    text-align:center;
-    padding:10px;
-    
+#section1 {
+border: #936239 1px solid;
+background-color:#936239;
+color:white;
+font-size: 17px;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+padding: 20px 20px;
 }
 
-p {
-    
-    text-align:center;
-    padding: 0px;
-    }
-
-    section1 {
-    display: inline-block;
-    border: #936239 1px solid;
-    background: #936239;
-}
-section2 {
-    display: inline-block;
-    border: #936239 1px solid;
+#section2 {
+border: white 1px solid;
+color:#936239;
+font-size: 17px;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+padding: 20px 20px; 
 }
 
-.child1 {
-   border: #936239 1px solid; 
-   display: inline-block;
-   width: 33%;
-   margin: 0;
-   background: #936239;
-   color: white;
+.box1 {
+display: inline-block;
+width: 33%;
+background-color:#936239;
+color:white;
+margin: 0px;
+text-align: center;
+font-size: 17px;
+padding: 20px 20px; 
+font-family: Arial, Helvetica, sans-serif;
 }
-.child2 {
-   border: #936239 1px solid; 
-   display: inline-block;
-   width: 33%;
-   margin: 0;
-   color: #936239;
+
+.box2 {
+display: inline-block;
+width: 33%;
+text-align: center;
+font-size: 17px;
+padding: 20px 20px; 
+color: #936239;
+font-family: Arial, Helvetica, sans-serif;
+
 }
-.child3 {
-   border: #936239 1px solid; 
-   display: inline-block;
-   width: 33%;
-   margin: 0;
-   background: #936239;
-   color: white;
-}.      це все закоментила, бо ще готово, лише какркас */
+
+.box3 {
+display: inline-block;
+width: 33%;
+background-color:#936239;
+color:white;
+text-align: center;
+font-size: 17px;
+padding: 20px 20px; 
+font-family: Arial, Helvetica, sans-serif;
+}
