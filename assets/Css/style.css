@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Imperial+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -14,7 +17,7 @@ header {
     background-size: cover;
     background-position: center;
     height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;/*прописати батьківський шрифт*/
+    font-family: Dancing Script, Arial, Helvetica, sans-serif;/*прописати батьківський шрифт*/
     color: #936239;/*прописати колір в іншому ускладненому форматі*/
 }
 
@@ -33,7 +36,7 @@ h1 {
 }
 
 .header-box > p {
-    font-size: 1.25em;
+    font-size: 1.375em;
 }
 
 .button {
@@ -49,7 +52,7 @@ h1 {
     top: 50%;   
     left: 50%; 
     transform: translate(-50%, -50%); 
-    font-size: 1.125em;
+    font-size: 1.25em;
     transition: background-color 0.3s ease;
 }
 
@@ -62,7 +65,8 @@ a.button:hover {
 background-color:#936239;
 color:white;
 font-size: 1.0625em;
-font-family: Arial, Helvetica, sans-serif;
+font-family: Cormorant, sans-serif;
+font-weight: 400;
 text-align: center;
 padding: 20px 20px;
 }
@@ -71,7 +75,8 @@ padding: 20px 20px;
 border: white 1px solid;
 color:#936239;
 font-size: 1.0625em;
-font-family: Arial, Helvetica, sans-serif;
+font-family: Cormorant, sans-serif;
+font-weight: 400;
 text-align: center;
 padding: 20px 20px; 
 background-color: rgb(244, 244, 244);
@@ -79,6 +84,8 @@ background-color: rgb(244, 244, 244);
 
 #section3 {
 font-size: 0px;
+font-family: Cormorant, sans-serif ;
+font-weight:400;
 
 }
 .box1 {
@@ -86,7 +93,6 @@ background-color:#936239;
 color:white;
 text-align:left;
 padding: 20px 20px; 
-font-family: Arial, Helvetica, sans-serif;
 display: inline-block;
 font-size: 1.0625rem;  
 width: calc(100% / 3); 
@@ -99,7 +105,6 @@ text-align:left;
 padding: 20px 20px; 
 background-color: rgb(249, 249, 249);
 color: #936239;
-font-family: Arial, Helvetica, sans-serif;
 display: inline-block;
 font-size: 1.0625rem;  
 width: calc(100% / 3); 
@@ -110,7 +115,6 @@ background-color:#936239;
 color:white;
 text-align:left;
 padding: 20px 20px; 
-font-family: Arial, Helvetica, sans-serif;
 display: inline-block;
 font-size: 1.0625rem; 
 width: calc(100% / 3); 
